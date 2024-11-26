@@ -40,9 +40,9 @@ const Home = () => {
     }
   return (
     <div>
-        <div className='flex gap-7 mt-3 place-content-between'>
+        <div className='flex gap-7 mt-6 place-content-between'>
             <input type="text" 
-            className='p-2 border border-black rounded-md w-[60%] pl-5'
+            className='p-2 border border-black rounded-md w-[80%] pl-5'
             placeholder='Enter Title Here :'
             value={title}
             onChange={(e) => {setTitle(e.target.value)}}
@@ -56,7 +56,7 @@ const Home = () => {
         </div>
 
         <div className='mt-4'>
-            <textarea className='rounded-2xl mt-4 min-w-[500px] p-4 h-[500px]'
+            <textarea className='rounded-2xl mt-4 min-w-[100%] p-4 h-[500px] '
             value={value} placeholder='Enter the content here'
             onChange={(e) => {setValue(e.target.value)}}></textarea>
         </div>       
